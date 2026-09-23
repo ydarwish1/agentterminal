@@ -7,6 +7,10 @@ Run **Claude Code, Codex, Cursor, Grok, Gemini and Pi** side by side, each in it
 - Runs on your laptop or your own server
 - No accounts, no telemetry, and the page makes no external requests
 
+![Four named agents running Claude Code, Codex, Gemini and Pi side by side in one project folder](docs/board.png)
+
+*A fresh install: four named agents, each a real terminal in the same folder. Every CLI is on its own first-run or sign-in screen.*
+
 ## Quick start
 
 ```bash
@@ -47,6 +51,8 @@ Open **http://localhost:5075**.
 | Separate projects | Use **+** in the dock to make a new workspace |
 | Full screen | **MAX** on the tile |
 
+![EDIT → ADD: your named agents on top, and every coding CLI below as a switch](docs/add-a-terminal.png)
+
 ## Running it on a server
 
 Answer **yes** to *"open this from another machine"* in setup.
@@ -63,6 +69,7 @@ check.mjs            npm run check — end-to-end install test
 config.default.json  every setting, documented (don't edit; setup writes config.json)
 tools/               agent linking and project-bar helpers
 vendor/              xterm.js
+docs/                screenshots
 test/smoke.mjs       npm test
 ```
 

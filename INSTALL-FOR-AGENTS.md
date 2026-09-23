@@ -67,7 +67,7 @@ For a one-off terminal, you don't need an agent: **EDIT → ADD**, switch on a C
 npm start
 ```
 
-Open **http://localhost:5075**, or take a screenshot with a headless browser. Check that:
+Open **http://localhost:5075**, or take a screenshot with a headless browser. After **START** on each tile, it should look like `docs/board.png`. Check that:
 - each named agent has a tile with its name
 - **START** on a tile gives a live terminal running its CLI
 - a CLI that isn't installed shows **NOT INSTALLED** instead of failing silently
