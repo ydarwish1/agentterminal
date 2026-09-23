@@ -1,0 +1,25 @@
+# --- your machine's answers, written by `npm run setup` ---
+config.json
+.env
+
+# --- runtime state ---
+state.json
+sessions/
+*.log
+logs/
+
+# --- node ---
+node_modules/
+npm-debug.log*
+
+# --- never commit ---
+*.pem
+*.key
+*.p12
+.credentials*
+**/settings.local.json
+.DS_Store
+
+# --- scratch ---
+.patch/
+npm-install.log
